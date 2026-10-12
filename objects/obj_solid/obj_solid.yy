@@ -32,5 +32,5 @@
     "path":"sprites/invisible_block/invisible_block.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

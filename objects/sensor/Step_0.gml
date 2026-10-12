@@ -2,9 +2,9 @@
 
 var player = place_meeting(x, y, obj_player);
 
-var espaco = keyboard_check_released(vk_space);
+var interagir = keyboard_check_released(ord("E"));
 
-if(player && espaco){
+if(player && interagir){
 	var tran = instance_create_layer(0, 0, layer, obj_transicao);
 	tran.destino = destino;
 	tran.destino_x = destino_x;
