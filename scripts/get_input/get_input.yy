@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_input",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_input",
+  "parent":{
+    "name":"Teko",
+    "path":"Teko.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
