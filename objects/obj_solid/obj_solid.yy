@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_floor",
+  "%Name":"obj_solid",
   "eventList":[],
   "managed":true,
-  "name":"obj_floor",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"invisible_block",
+    "path":"sprites/invisible_block/invisible_block.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
