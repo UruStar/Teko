@@ -41,14 +41,14 @@ if(!place_meeting(x,y+1,obj_floor)){ //se nao tiver no chao
 		sprite_index = spr_player_fall // caindo, pq ta indo pra baixo
 		
 	}else{ //senao
-		sprite_index = spr_jumpInitial //pulando
+		sprite_index = spr_player_jump //pulando
 	}
 }
 else{ //se tiver no chao
 	if(hspd!=0){ //se tiver andando
-		sprite_index = spr_playerRun //sprite correndo
+		sprite_index = spr_player_run //sprite correndo
 	}else{//se nao
-		sprite_index = spr_playerIdle // parado
+		sprite_index = spr_player_idle // parado
 	}
 }
 
