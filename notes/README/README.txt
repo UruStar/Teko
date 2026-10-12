@@ -1,0 +1,3 @@
+rooms: 1280x736
+	-viewport:480x270
+	

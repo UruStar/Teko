@@ -25,7 +25,7 @@ y = y + vspd; //verticalidade
 
 //´PULO
 if place_meeting(x,y+1,obj_floor) and key_jump{
-	vspd -=6;
+	vspd -=6.5;
 }
 
 #endregion

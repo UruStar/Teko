@@ -1,5 +1,6 @@
 window_set_size(1280,720);
 gpu_set_tex_filter(false);
+window_set_fullscreen(true);
 
 mask_index = spr_player_idle; 
 spd = 3;
@@ -8,7 +9,7 @@ hspd = 0;
 grv = 0.3;
 image_speed = 0.2;
 
-state = playerState.FREE
+state = playerState.FREE;
 
 enum playerState
 {
