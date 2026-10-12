@@ -1,3 +1,6 @@
+window_set_size(1280,720);
+gpu_set_tex_filter(false);
+
 mask_index = spr_playerIdle; 
 spd = 3;
 vspd = 0;

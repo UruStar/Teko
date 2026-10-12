@@ -38,7 +38,7 @@ if(hspd!=0){ //troca o lado q o bixo ta olhando
 
 if(!place_meeting(x,y+1,obj_floor)){ //se nao tiver no chao
 	if(vspd > 0){ // e o player tiver caindo
-		sprite_index = spr_playerFall // caindo, pq ta indo pra baixo
+		sprite_index = spr_player_fall // caindo, pq ta indo pra baixo
 		
 	}else{ //senao
 		sprite_index = spr_jumpInitial //pulando

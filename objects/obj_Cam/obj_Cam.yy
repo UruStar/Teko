@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Cam",
+  "%Name":"obj_cam",
   "eventList":[],
   "managed":true,
-  "name":"obj_Cam",
+  "name":"obj_cam",
   "overriddenProperties":[],
   "parent":{
-    "name":"Teko",
-    "path":"Teko.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

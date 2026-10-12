@@ -6,8 +6,8 @@
   "name":"obj_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Teko",
-    "path":"Teko.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
