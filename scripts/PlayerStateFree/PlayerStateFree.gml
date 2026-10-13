@@ -1,17 +1,56 @@
 function PlayerStateFree(){
 get_input()
 
+
 #region MOVIMENTAÇÃO
 var move = key_right - key_left //define andar p esquerda ou direita
+	if(tonico = true){
+	    if (dash_cooldown > 0) dash_cooldown -= 1; //se for maior q 0, cai a cada frame o cd
+    
+	    if (place_meeting(x, y + 1, obj_solid) && dash_cooldown <= 0) { //se tiver no chao, e o cd for zero, reseta
+	        can_dash = true;
+	    }
+   
+	    if (key_dash && can_dash && dash_cooldown <= 0) {//se pressionou Q, pode dashar e n tem cooldown
+	        can_dash = false;   // n pod dasha
+	        dash_cooldown = 20; // seta cooldown
+	        dash_time = 10;     // dura 10 frames
 
-hspd = move * spd; // velocidade
-vspd = vspd + grv; //aceleraçao de queda
+	        if (move != 0) { // seta a direçao do dash
+	            dash_dir = move;
+	        } else {
+	            dash_dir = image_xscale; 
+	        }
+	    }
+	    if (dash_time > 0) { //se tiver no dash
+	        dash_time -= 1;        //timer vai caindo
+	        hspd = dash_dir * 12;  // fica rapidao
+	        vspd = 0;              // Gravidade zero pra deslizar no ar
+	    } 
+	    else {
+			//se nao tiver dashando
+		
+			//movimentação padrao
+	        hspd = move * spd;
+	        vspd = vspd + grv;
+	        // Pulo normal:
+	        if (place_meeting(x, y + 1, obj_solid) && key_jump) {
+	            vspd = -6.5;
+	        }
+	    }
+	}else{
+			//movimentação padrao
+	        hspd = move * spd;
+	        vspd = vspd + grv;
+	        // Pulo normal:
+	        if (place_meeting(x, y + 1, obj_solid) && key_jump) {
+	            vspd = -6.5;
+	        }
+	}
 
-//PULO
-if place_meeting(x,y+1,obj_solid) and key_jump{
-	vspd -=6.5;
-}
 
+
+	
 #endregion
 
 #region COLISÃO OBJ_SOLID
