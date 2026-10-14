@@ -1,6 +1,7 @@
 function PlayerStateFree(){
 get_input()
 
+if (instance_exists(oTextBox)) exit;
 
 #region MOVIMENTAÇÃO
 var move = key_right - key_left //define andar p esquerda ou direita

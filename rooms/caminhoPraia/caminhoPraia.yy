@@ -60,6 +60,7 @@
     {"name":"inst_14A0310E","path":"rooms/caminhoPraia/caminhoPraia.yy",},
     {"name":"inst_69F7D22F","path":"rooms/caminhoPraia/caminhoPraia.yy",},
     {"name":"inst_4E3970AE","path":"rooms/caminhoPraia/caminhoPraia.yy",},
+    {"name":"inst_C4F1FC3","path":"rooms/caminhoPraia/caminhoPraia.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -116,6 +117,7 @@
         {"$GMRInstance":"v4","%Name":"inst_14A0310E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14A0310E","objectId":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59375,"scaleY":0.4375,"x":847.0,"y":632.0,},
         {"$GMRInstance":"v4","%Name":"inst_69F7D22F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69F7D22F","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":851.0,"y":635.0,},
         {"$GMRInstance":"v4","%Name":"inst_4E3970AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E3970AE","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":722.0,"y":494.0,},
+        {"$GMRInstance":"v4","%Name":"inst_C4F1FC3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C4F1FC3","objectId":{"name":"oColClaudia","path":"objects/oColClaudia/oColClaudia.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.8125,"scaleY":1.0,"x":130.0,"y":625.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Sensores","depth":200,"effectEnabled":true,"effectType":null,"gridX":10,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1A7A120B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A7A120B","objectId":{"name":"sensor","path":"objects/sensor/sensor.yy",},"properties":[
