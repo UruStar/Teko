@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_oca",
+    "path":"sprites/spr_oca/spr_oca.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_casa2",
+    "path":"sprites/spr_casa2/spr_casa2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
