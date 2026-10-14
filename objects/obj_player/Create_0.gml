@@ -11,7 +11,7 @@ image_speed = 0.2;
 dash_time = 0;
 dash_cooldown = 0;
 state = playerState.FREE;
-tonico = false;
+tonico = true;
 enum playerState
 {
 	FREE

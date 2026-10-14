@@ -91,6 +91,9 @@ else{ //se tiver no chao
 		sprite_index = spr_player_idle // parado
 	}
 }
+	 if (dash_time > 0) {
+		sprite_index = spr_player_dash //sprite dash
+	 }
 
 #endregion
 
