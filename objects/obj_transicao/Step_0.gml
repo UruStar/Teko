@@ -1,8 +1,8 @@
 //ja mudei de room
 if(mudei){
-alpha -= 0.07;
+alpha -= 0.1;
 }else{
-alpha += 0.07;
+alpha += 0.1;
 }
 
 //qnd alpha passa de 1 vai mudar de room

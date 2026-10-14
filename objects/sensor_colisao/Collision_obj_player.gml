@@ -5,3 +5,4 @@ if(player){
 	tran.destino_x = destino_x;
 	tran.destino_y = destino_y;
 }
+

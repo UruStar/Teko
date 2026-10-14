@@ -4,7 +4,7 @@ get_input()
 
 #region MOVIMENTAÇÃO
 var move = key_right - key_left //define andar p esquerda ou direita
-	if(tonico = true){
+	if(global.tonico = true){
 	    if (dash_cooldown > 0) dash_cooldown -= 1; //se for maior q 0, cai a cada frame o cd
     
 	    if (place_meeting(x, y + 1, obj_solid) && dash_cooldown <= 0) { //se tiver no chao, e o cd for zero, reseta
@@ -24,7 +24,7 @@ var move = key_right - key_left //define andar p esquerda ou direita
 	    }
 	    if (dash_time > 0) { //se tiver no dash
 	        dash_time -= 1;        //timer vai caindo
-	        hspd = dash_dir * 12;  // fica rapidao
+	        hspd = dash_dir * 9;  // fica rapidao
 	        vspd = 0;              // Gravidade zero pra deslizar no ar
 	    } 
 	    else {
@@ -50,6 +50,18 @@ var move = key_right - key_left //define andar p esquerda ou direita
 
 
 
+//pogo 
+
+		if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo){
+		//	sprite_index = spr_player_pogo
+	
+			if(place_meeting(x,y+20,obj_spikes)){
+				vspd =-5.5;
+			}
+			can_dash = true;
+		}
+
+	
 	
 #endregion
 
