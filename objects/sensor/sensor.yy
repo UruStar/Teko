@@ -8,8 +8,8 @@
   "name":"sensor",
   "overriddenProperties":[],
   "parent":{
-    "name":"RibeiroLandia",
-    "path":"folders/Objects/RibeiroLandia.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
