@@ -5,7 +5,7 @@ key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space);
 interaction_key = keyboard_check(ord("E"))
 key_dash = keyboard_check_pressed(ord("O"));  
-key_pogo = keyboard_check(ord("I"));  
+key_pogo = keyboard_check_direct(ord("I"));  
 }
 
 //então o betinha colocou pressed né?KKKKKKKKKKKKKKK
