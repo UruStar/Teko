@@ -8,7 +8,7 @@ vspd = 0;
 hspd = 0;
 grv = 0.3;
 
-
+can_pogo = true;
 image_speed = 0.2;
 dash_time = 0;
 dash_cooldown = 0;

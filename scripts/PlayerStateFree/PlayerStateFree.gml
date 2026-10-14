@@ -53,13 +53,19 @@ var move = key_right - key_left //define andar p esquerda ou direita
 
 //pogo 
 
-		if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo){
+		if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo && can_pogo){
 			
 	
 			if(place_meeting(x,y+20,obj_spikes)){
 				vspd =-5.5;
+				can_pogo = false
 			}
 			can_dash = true;
+		}
+		
+		if(place_meeting(x,y+1,obj_solid)){
+		
+			can_pogo = true;
 		}
 
 	
@@ -90,7 +96,7 @@ if(hspd!=0){ //troca o lado q o bixo ta olhando
 }
 
 if(!place_meeting(x,y+1,obj_solid)){ //se nao tiver no chao	
-	if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo) //se tiver pogando
+	if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo && can_pogo) //se tiver pogando
 	{
 		sprite_index = spr_player_pogo
 		image_speed = 1;
