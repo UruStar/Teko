@@ -53,7 +53,7 @@ var move = key_right - key_left //define andar p esquerda ou direita
 //pogo 
 
 		if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo){
-		//	sprite_index = spr_player_pogo
+			
 	
 			if(place_meeting(x,y+20,obj_spikes)){
 				vspd =-5.5;
@@ -88,8 +88,16 @@ if(hspd!=0){ //troca o lado q o bixo ta olhando
 	image_xscale = sign(hspd);
 }
 
-if(!place_meeting(x,y+1,obj_solid)){ //se nao tiver no chao
+if(!place_meeting(x,y+1,obj_solid)){ //se nao tiver no chao	
+	if(global.peixeira && !place_meeting(x,y+1,obj_solid) && key_pogo) //se tiver pogando
+	{
+		sprite_index = spr_player_pogo
+		image_speed = 1;
+		
+		}else
+		
 	if(vspd > 0){ // e o player tiver caindo
+		image_speed = 0.2;
 		sprite_index = spr_player_fall // caindo, pq ta indo pra baixo
 		
 	}else{ //senao

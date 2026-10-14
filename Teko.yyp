@@ -86,6 +86,7 @@
     {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
+    {"id":{"name":"spr_player_pogo","path":"sprites/spr_player_pogo/spr_player_pogo.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"spr_RibeirosHouse","path":"sprites/spr_RibeirosHouse/spr_RibeirosHouse.yy",},},
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
@@ -107,8 +108,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Aldeia_Parkour_1","path":"rooms/Aldeia_Parkour_1/Aldeia_Parkour_1.yy",},},
     {"roomId":{"name":"Aldeia_initial","path":"rooms/Aldeia_initial/Aldeia_initial.yy",},},
+    {"roomId":{"name":"Aldeia_Parkour_1","path":"rooms/Aldeia_Parkour_1/Aldeia_Parkour_1.yy",},},
     {"roomId":{"name":"caminhoPraia","path":"rooms/caminhoPraia/caminhoPraia.yy",},},
     {"roomId":{"name":"praiaSecreta","path":"rooms/praiaSecreta/praiaSecreta.yy",},},
     {"roomId":{"name":"ribeirinhos","path":"rooms/ribeirinhos/ribeirinhos.yy",},},
