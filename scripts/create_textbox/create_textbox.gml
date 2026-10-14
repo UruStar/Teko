@@ -13,6 +13,14 @@ function create_textbox() {
         for (var i = 0; i < len; i++) {
             names[i]     = speakers[i].name;
             portraits[i] = speakers[i].portrait_index;
+
+            // sprite do retrato vindo das Definições de variáveis
+            if (variable_instance_exists(speakers[i], "portrait_sprite")
+                && sprite_exists(speakers[i].portrait_sprite)) {
+                portrait_sprites[i] = speakers[i].portrait_sprite;
+            } else {
+                portrait_sprites[i] = sPortraits;
+            }
         }
         event_perform(ev_other, ev_user1);
     }

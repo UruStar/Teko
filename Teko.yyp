@@ -60,7 +60,7 @@
     {"id":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},},
     {"id":{"name":"obj_starfish","path":"objects/obj_starfish/obj_starfish.yy",},},
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
-    {"id":{"name":"oColClaudia","path":"objects/oColClaudia/oColClaudia.yy",},},
+    {"id":{"name":"oColPlaca","path":"objects/oColPlaca/oColPlaca.yy",},},
     {"id":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},},
     {"id":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},},
     {"id":{"name":"sensor_colisao_1","path":"objects/sensor_colisao_1/sensor_colisao_1.yy",},},
@@ -125,8 +125,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"caminhoPraia","path":"rooms/caminhoPraia/caminhoPraia.yy",},},
-    {"roomId":{"name":"Aldeia_initial","path":"rooms/Aldeia_initial/Aldeia_initial.yy",},},
     {"roomId":{"name":"Aldeia_Parkour_1","path":"rooms/Aldeia_Parkour_1/Aldeia_Parkour_1.yy",},},
+    {"roomId":{"name":"Aldeia_initial","path":"rooms/Aldeia_initial/Aldeia_initial.yy",},},
     {"roomId":{"name":"praiaSecreta","path":"rooms/praiaSecreta/praiaSecreta.yy",},},
     {"roomId":{"name":"ribeirinhos","path":"rooms/ribeirinhos/ribeirinhos.yy",},},
     {"roomId":{"name":"bonete_initial","path":"rooms/bonete_initial/bonete_initial.yy",},},

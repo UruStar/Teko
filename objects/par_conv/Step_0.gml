@@ -1,4 +1,4 @@
-if (distance_to_object(obj_player) < 24
+if (distance_to_object(obj_player) < interact_range
     && keyboard_check_pressed(ord("E"))
     && !instance_exists(oTextBox)) {
 

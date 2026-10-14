@@ -4,7 +4,12 @@ draw_sprite(box, 0, box_x, box_y);
 // Retrato, moldura e caixa do nome
 if (global.activate_portrait) {
     draw_sprite(frame, 0, port_x, port_y);               // fundo
-    draw_sprite(portrait, portrait_index, port_x, port_y); // retrato
+    var sx = port_width  / sprite_get_width(portrait);
+	var sy = port_height / sprite_get_height(portrait);
+	draw_sprite_ext(portrait, portrait_index,
+    port_x + sprite_get_xoffset(portrait) * sx,
+    port_y + sprite_get_yoffset(portrait) * sy,
+    sx, sy, 0, c_white, 1);
 
     // borda só existe se o sprite da moldura tiver 2 frames
     if (sprite_get_number(frame) > 1) {

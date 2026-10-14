@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oColClaudia",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oColPlaca",
+  "eventList":[],
   "managed":true,
-  "name":"oColClaudia",
+  "name":"oColPlaca",
   "overriddenProperties":[],
   "parent":{
     "name":"RibeiroLandia",
     "path":"folders/Objects/RibeiroLandia.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_conv",
+    "path":"objects/par_conv/par_conv.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_base",
-    "path":"sprites/spr_npc_base/spr_npc_base.yy",
+    "name":"spr_sign",
+    "path":"sprites/spr_sign/spr_sign.yy",
   },
   "spriteMaskId":null,
   "visible":true,
