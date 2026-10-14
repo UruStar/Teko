@@ -6,6 +6,7 @@ if (!variable_global_exists("game_width")) {
 box      = sTextBox;
 frame    = sPortarit_frame;
 portrait = sPortraits;
+portrait_sprites = [sPortraits];
 namebox  = sNameBox;
 
 box_width       = sprite_get_width(box);
