@@ -14,11 +14,12 @@ if (distance_to_object(obj_player) < interact_range
     } else if (ja_deu && dialogue_done != "") {
         // já deu o marcador antes e tem fala de "já conversamos"
         linhas = dialogue_done;
+        dar_flag = flag_done;      // NOVO: marcador dado quando essa conversa termina
     } else {
         dar_flag = flag_give;
     }
 
-    // nunca deixa a fala vazia (isso é o que causava o crash)
+    // nunca deixa a fala vazia
     if (linhas == "") linhas = "...";
 
     var paginas = string_split(linhas, "|", true);

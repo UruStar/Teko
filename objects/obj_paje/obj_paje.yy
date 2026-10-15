@@ -4,14 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"obj_paje",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pajé Leto",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Nossa aldeia esta um caos... So a flor sagrada pode nos ajudar, aqui esta o tonico da velocidade para auxiliar na sua busca, nos salve!",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv/par_conv.yy",},"resource":{"name":"spr_npc_paje","path":"sprites/spr_npc_paje/spr_npc_paje.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_npc_paje",},
-  ],
+  "overriddenProperties":[],
   "parent":{
-    "name":"Npc's",
-    "path":"folders/Objects/Npc's.yy",
+    "name":"Aldeia",
+    "path":"folders/Objects/Aldeia.yy",
   },
   "parentObjectId":{
     "name":"par_conv",
@@ -35,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_paje",
-    "path":"sprites/spr_npc_paje/spr_npc_paje.yy",
+    "name":"spr_paje",
+    "path":"sprites/spr_paje/spr_paje.yy",
   },
   "spriteMaskId":null,
   "visible":true,

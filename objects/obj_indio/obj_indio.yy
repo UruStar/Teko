@@ -6,8 +6,8 @@
   "name":"obj_indio",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npc's",
-    "path":"folders/Objects/Npc's.yy",
+    "name":"Aldeia",
+    "path":"folders/Objects/Aldeia.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_indio",
-    "path":"sprites/spr_npc_indio/spr_npc_indio.yy",
+    "name":"spr_indio",
+    "path":"sprites/spr_indio/spr_indio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

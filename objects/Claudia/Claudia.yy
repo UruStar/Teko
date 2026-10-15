@@ -5,17 +5,17 @@
   "managed":true,
   "name":"Claudia",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Claudia",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EI, você consegue me ajudar?? Eu estou desesperada, meu marido sumiu, a ultima vez que vi ele foi no caminho para ca!",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv/par_conv.yy",},"resource":{"name":"spr_npc_base","path":"sprites/spr_npc_base/spr_npc_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_npc_base",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv1","path":"objects/par_conv1/par_conv1.yy",},"propertyId":{"name":"name","path":"objects/par_conv1/par_conv1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Claudia",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv1","path":"objects/par_conv1/par_conv1.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv1/par_conv1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EI, você consegue me ajudar?? Eu estou desesperada, meu marido sumiu, a ultima vez que vi ele foi no caminho para ca!",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv1","path":"objects/par_conv1/par_conv1.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv1/par_conv1.yy",},"resource":{"name":"spr_npc_base1","path":"sprites/spr_npc_base1/spr_npc_base1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_npc_base1",},
   ],
   "parent":{
     "name":"Npc's",
     "path":"folders/Objects/Npc's.yy",
   },
   "parentObjectId":{
-    "name":"par_conv",
-    "path":"objects/par_conv/par_conv.yy",
+    "name":"par_conv1",
+    "path":"objects/par_conv1/par_conv1.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_base",
-    "path":"sprites/spr_npc_base/spr_npc_base.yy",
+    "name":"spr_npc_base1",
+    "path":"sprites/spr_npc_base1/spr_npc_base1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"sensor_colisao_bonete1",
+  "%Name":"sensor_colisao_3_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"sensor_colisao_bonete1",
+  "name":"sensor_colisao_3_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bonete",
-    "path":"folders/Rooms/Bonete.yy",
+    "name":"Aldeia",
+    "path":"folders/Rooms/Aldeia.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"destino","filters":[],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Aldeia_Parkour_3","path":"rooms/Aldeia_Parkour_3/Aldeia_Parkour_3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Aldeia_Parkour_3","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"destino","filters":[],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Aldeia_Parkour_3_1","path":"rooms/Aldeia_Parkour_3_1/Aldeia_Parkour_3_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Aldeia_Parkour_3_1","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"destino_x","filters":[],"listItems":[],"multiselect":false,"name":"destino_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"destino_y","filters":[],"listItems":[],"multiselect":false,"name":"destino_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"623","varType":0,},
   ],
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sensor_colisao",
-    "path":"sprites/spr_sensor_colisao/spr_sensor_colisao.yy",
+    "name":"spr_sensor_colisao1",
+    "path":"sprites/spr_sensor_colisao1/spr_sensor_colisao1.yy",
   },
   "spriteMaskId":null,
   "visible":false,

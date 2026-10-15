@@ -5,17 +5,17 @@
   "managed":true,
   "name":"obj_sign_speak",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"tutorial",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Com o tonico, voce pode deslizar rapidamente no chao e no ar ao apertar \"O\"!",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv/par_conv.yy",},"resource":{"name":"spr_icon_tonico","path":"sprites/spr_icon_tonico/spr_icon_tonico.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_icon_tonico",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv1","path":"objects/par_conv1/par_conv1.yy",},"propertyId":{"name":"name","path":"objects/par_conv1/par_conv1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"tutorial",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv1","path":"objects/par_conv1/par_conv1.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv1/par_conv1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Com o tonico, voce pode deslizar rapidamente no chao e no ar ao apertar \"O\"!",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv1","path":"objects/par_conv1/par_conv1.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv1/par_conv1.yy",},"resource":{"name":"spr_icon_tonico1","path":"sprites/spr_icon_tonico1/spr_icon_tonico1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_icon_tonico1",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"par_conv",
-    "path":"objects/par_conv/par_conv.yy",
+    "name":"par_conv1",
+    "path":"objects/par_conv1/par_conv1.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sign",
-    "path":"sprites/spr_sign/spr_sign.yy",
+    "name":"spr_sign1",
+    "path":"sprites/spr_sign1/spr_sign1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
