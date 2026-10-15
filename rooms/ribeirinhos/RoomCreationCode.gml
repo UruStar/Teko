@@ -1,0 +1,1 @@
+show_area_name("Vila dos Ribeirinhos")

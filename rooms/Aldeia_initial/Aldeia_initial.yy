@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Aldeia_initial",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Aldeia_initial/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,

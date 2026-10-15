@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"bonete_initial_1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/bonete_initial_1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
