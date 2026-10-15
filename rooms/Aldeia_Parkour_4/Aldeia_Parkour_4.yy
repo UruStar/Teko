@@ -22,6 +22,7 @@
     {"name":"inst_5B1A1DE2","path":"rooms/Aldeia_Parkour_4/Aldeia_Parkour_4.yy",},
     {"name":"inst_22B88ED","path":"rooms/Aldeia_Parkour_4/Aldeia_Parkour_4.yy",},
     {"name":"inst_673544E0","path":"rooms/Aldeia_Parkour_4/Aldeia_Parkour_4.yy",},
+    {"name":"inst_32E35C06","path":"rooms/Aldeia_Parkour_4/Aldeia_Parkour_4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,6 +38,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sensor_colisao","path":"objects/sensor_colisao/sensor_colisao.yy",},"propertyId":{"name":"destino_x","path":"objects/sensor_colisao/sensor_colisao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sensor_colisao","path":"objects/sensor_colisao/sensor_colisao.yy",},"propertyId":{"name":"destino_y","path":"objects/sensor_colisao/sensor_colisao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"623",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.5,"x":1248.0,"y":384.0,},
+        {"$GMRInstance":"v4","%Name":"inst_32E35C06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32E35C06","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":1171.0,"y":635.0,},
       ],"layers":[],"name":"afins","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"solids","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_387F9C6E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_387F9C6E","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":40.0,"scaleY":2.0,"x":0.0,"y":672.0,},

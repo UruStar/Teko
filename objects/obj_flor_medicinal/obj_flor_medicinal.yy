@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_flor_medicinal",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_flor_medicinal",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"Aldeia",
     "path":"folders/Objects/Aldeia.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"popup_E",
+    "path":"objects/popup_E/popup_E.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,7 +29,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"flag_collect","filters":[],"listItems":[],"multiselect":false,"name":"flag_collect","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"flor_coletada","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"interact_range","filters":[],"listItems":[],"multiselect":false,"name":"interact_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"24","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

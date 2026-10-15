@@ -1,6 +1,7 @@
 if (distance_to_object(obj_player) < interact_range
     && keyboard_check_pressed(ord("E"))
-    && !instance_exists(oTextBox)) {
+    && !instance_exists(oTextBox)
+    && current_time - global.dialogue_closed_at > 300) {
 
     var liberado = quest_get(flag_need);                        // tem a permissão?
     var ja_deu   = (flag_give != "" && quest_get(flag_give));   // já deu o marcador antes?

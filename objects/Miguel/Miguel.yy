@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"DefinaNome",
+  "%Name":"Miguel",
   "eventList":[],
   "managed":true,
-  "name":"DefinaNome",
+  "name":"Miguel",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"DefinaNome",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EscrevaFrase",},
@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_base",
-    "path":"sprites/spr_npc_base/spr_npc_base.yy",
+    "name":"spr_ribeirinho",
+    "path":"sprites/spr_ribeirinho/spr_ribeirinho.yy",
   },
   "spriteMaskId":null,
   "visible":true,
