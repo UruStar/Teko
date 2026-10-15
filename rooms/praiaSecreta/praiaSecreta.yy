@@ -17,6 +17,7 @@
     {"name":"inst_3F17AA94","path":"rooms/praiaSecreta/praiaSecreta.yy",},
     {"name":"inst_55AD3AAC","path":"rooms/praiaSecreta/praiaSecreta.yy",},
     {"name":"inst_6F39A033","path":"rooms/praiaSecreta/praiaSecreta.yy",},
+    {"name":"inst_50FE7B7D","path":"rooms/praiaSecreta/praiaSecreta.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -41,6 +42,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"flag_hide","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"falou_carlos",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue_done","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"A Claudia te mandou?? EU AMO ELA!!, sabia que meu amorzinho ia lembrar de mim depois de sumir por tanto tempo, vou ir pelo caminho que você veio, te vejo na vila!!",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":370.0,"y":624.0,},
+        {"$GMRInstance":"v4","%Name":"inst_50FE7B7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50FE7B7D","objectId":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":52.0,"y":417.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
           -722,-2147483648,1,0,-81,-2147483648,-12,2,-24,0,-6,-2147483648,-11,6,-23,0,-3,-2147483648,4,1,10,10,
