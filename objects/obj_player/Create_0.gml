@@ -14,7 +14,7 @@ dash_time = 0;
 dash_cooldown = 0;
 state = playerState.FREE;
 global.tonico = true;
-global.peixeira = true;
+global.peixeira = false;
 enum playerState
 {
 	FREE

@@ -137,6 +137,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"caminhoPraia","path":"rooms/caminhoPraia/caminhoPraia.yy",},},
+    {"roomId":{"name":"parkourPraia","path":"rooms/parkourPraia/parkourPraia.yy",},},
     {"roomId":{"name":"Aldeia_initial","path":"rooms/Aldeia_initial/Aldeia_initial.yy",},},
     {"roomId":{"name":"Aldeia_Parkour_2","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},},
     {"roomId":{"name":"Aldeia_Parkour_4","path":"rooms/Aldeia_Parkour_4/Aldeia_Parkour_4.yy",},},
@@ -146,7 +147,6 @@
     {"roomId":{"name":"bonete_initial","path":"rooms/bonete_initial/bonete_initial.yy",},},
     {"roomId":{"name":"bonete_initial_1","path":"rooms/bonete_initial_1/bonete_initial_1.yy",},},
     {"roomId":{"name":"Aldeia_Parkour_3","path":"rooms/Aldeia_Parkour_3/Aldeia_Parkour_3.yy",},},
-    {"roomId":{"name":"parkourPraia","path":"rooms/parkourPraia/parkourPraia.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
