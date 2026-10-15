@@ -54,3 +54,5 @@ text_wrapped = string_wrap(text[page], text_max_width);
 str_len = string_length(text_wrapped);
 
 global.activate_portrait = true;
+
+flag_to_give = "";
