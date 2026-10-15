@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Carlos",
+  "%Name":"Pedro",
   "eventList":[],
   "managed":true,
-  "name":"Carlos",
+  "name":"Pedro",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Carlos",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Claudia",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EI, você consegue me ajudar?? Eu estou desesperada, meu marido sumiu, a ultima vez que vi ele foi no caminho para ca!",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv/par_conv.yy",},"resource":{"name":"spr_npc_base","path":"sprites/spr_npc_base/spr_npc_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_npc_base",},
   ],
   "parent":{

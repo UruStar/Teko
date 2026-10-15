@@ -43,6 +43,7 @@
     {"$GMObjectProperty":"v2","%Name":"flag_hide","filters":[],"listItems":[],"multiselect":false,"name":"flag_hide","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"dialogue_locked","filters":[],"listItems":[],"multiselect":false,"name":"dialogue_locked","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"dialogue_done","filters":[],"listItems":[],"multiselect":false,"name":"dialogue_done","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"flag_done","filters":[],"listItems":[],"multiselect":false,"name":"flag_done","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
