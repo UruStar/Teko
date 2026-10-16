@@ -121,6 +121,17 @@ else{ //se tiver no chao
 	 if (dash_time > 0) {
 		sprite_index = spr_player_dash //sprite dash
 	 }
+	 
+	 if(taking_damage){
+	    sprite_index = spr_player_damage;
+	    image_index = 0;
+	    image_speed = 0.2;
+		
+		if(image_index >= image_number - 1)
+		{
+			taking_damage = false;
+		}
+	}
 
 #endregion
 

@@ -13,6 +13,7 @@ image_speed = 0.2;
 dash_time = 0;
 dash_cooldown = 0;
 state = playerState.FREE;
+taking_damage = false;
 global.tonico = false;
 global.peixeira = false;
 enum playerState
