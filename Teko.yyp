@@ -10,8 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Fonts/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"fonts","folderPath":"folders/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Aldeia","folderPath":"folders/Objects/Aldeia.yy","name":"Aldeia","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"RibeiroLandia Npc's","folderPath":"folders/Objects/RibeiroLandia Npc's.yy","name":"RibeiroLandia Npc's","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,7 +41,6 @@
   },
   "name":"Teko",
   "resources":[
-    {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
     {"id":{"name":"fnt_dialogue","path":"fonts/fnt_dialogue/fnt_dialogue.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"Indio","path":"objects/Indio/Indio.yy",},},
