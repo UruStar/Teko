@@ -16,6 +16,7 @@ var move = key_right - key_left //define andar p esquerda ou direita
 	        can_dash = false;   // n pod dasha
 	        dash_cooldown = 20; // seta cooldown
 	        dash_time = 10;     // dura 10 frames
+			audio_play_sound(snd_dash, 10, false);
 
 	        if (move != 0) { // seta a direçao do dash
 	            dash_dir = move;
@@ -58,6 +59,7 @@ var move = key_right - key_left //define andar p esquerda ou direita
 	
 			if(place_meeting(x,y+20,obj_spikes)){
 				vspd =-5.5;
+				audio_play_sound(snd_pogo, 10, false);
 				can_pogo = false
 			}
 			can_dash = true;

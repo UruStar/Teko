@@ -21,3 +21,8 @@ enum playerState
 {
 	FREE
 }
+
+
+if (!audio_is_playing(snd_music)) {
+    audio_play_sound(snd_music, 1000, true); // O 'true' no final faz tocar em loop infinito!
+}

@@ -8,4 +8,3 @@ key_dash = keyboard_check_pressed(ord("O"));
 key_pogo = keyboard_check_direct(ord("I"));  
 }
 
-//então o betinha colocou pressed né?KKKKKKKKKKKKKKK
