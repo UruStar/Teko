@@ -14,6 +14,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Aldeia","folderPath":"folders/Objects/Aldeia.yy","name":"Aldeia","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Coisas_importantes","folderPath":"folders/Objects/Coisas_importantes.yy","name":"Coisas_importantes","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Cutscene","folderPath":"folders/Objects/Cutscene.yy","name":"Cutscene","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Obj_de_cenario","folderPath":"folders/Objects/Obj_de_cenario.yy","name":"Obj_de_cenario","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objects/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"RibeiroLandia","folderPath":"folders/Objects/RibeiroLandia.yy","name":"RibeiroLandia","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -37,7 +38,9 @@
     {"$GMFolder":"","%Name":"TileSet","folderPath":"folders/TileSet.yy","name":"TileSet","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"final.mp4","CopyToMask":-1,"filePath":"datafiles","name":"final.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -53,6 +56,7 @@
     {"id":{"name":"obj_boat","path":"objects/obj_boat/obj_boat.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_casa2","path":"objects/obj_casa2/obj_casa2.yy",},},
+    {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_flor_medicinal","path":"objects/obj_flor_medicinal/obj_flor_medicinal.yy",},},
     {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
     {"id":{"name":"obj_indio","path":"objects/obj_indio/obj_indio.yy",},},

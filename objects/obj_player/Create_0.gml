@@ -16,6 +16,7 @@ state = playerState.FREE;
 taking_damage = false;
 global.tonico = false;
 global.peixeira = false;
+global.cutscene = false;
 enum playerState
 {
 	FREE
