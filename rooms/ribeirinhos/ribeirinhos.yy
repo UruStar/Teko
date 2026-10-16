@@ -49,6 +49,7 @@
     {"name":"inst_22364220","path":"rooms/ribeirinhos/ribeirinhos.yy",},
     {"name":"inst_E597EF4","path":"rooms/ribeirinhos/ribeirinhos.yy",},
     {"name":"inst_3CFF21FC","path":"rooms/ribeirinhos/ribeirinhos.yy",},
+    {"name":"inst_57EC617B","path":"rooms/ribeirinhos/ribeirinhos.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -103,6 +104,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue_locked","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue_done","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1074.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_57EC617B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57EC617B","objectId":{"name":"sensor_colisao","path":"objects/sensor_colisao/sensor_colisao.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sensor_colisao","path":"objects/sensor_colisao/sensor_colisao.yy",},"propertyId":{"name":"destino","path":"objects/sensor_colisao/sensor_colisao.yy",},"resource":{"name":"ribeirinhos","path":"rooms/ribeirinhos/ribeirinhos.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ribeirinhos",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sensor_colisao","path":"objects/sensor_colisao/sensor_colisao.yy",},"propertyId":{"name":"destino_x","path":"objects/sensor_colisao/sensor_colisao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.20235,"scaleX":0.265625,"scaleY":2.03125,"x":1280.9996,"y":629.18365,},
       ],"layers":[],"name":"Sensores","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Ponte","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ponte","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":46,"SerialiseWidth":80,"TileCompressedData":[-3112,-2147483648,-8,0,-72,-2147483648,-8,0,-75,-2147483648,2,20,21,-78,-2147483648,2,28,29,-323,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_ponte","path":"tilesets/ts_ponte/ts_ponte.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
