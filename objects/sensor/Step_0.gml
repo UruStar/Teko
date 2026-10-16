@@ -1,4 +1,4 @@
-//ver se esta colidindo
+//ve se ta colidindo
 
 var player = place_meeting(x, y, obj_player);
 

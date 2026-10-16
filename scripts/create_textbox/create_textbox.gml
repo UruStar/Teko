@@ -1,6 +1,8 @@
 ///@description create_textbox
 ///@arg text
 ///@arg speakers
+
+//le as informações q foram colocadas nas variaveis e cria a textbox conforme elas
 function create_textbox() {
 
     var tbox = instance_create_depth(0, 0, -10000, oTextBox);
@@ -14,7 +16,7 @@ function create_textbox() {
             names[i]     = speakers[i].name;
             portraits[i] = speakers[i].portrait_index;
 
-            // sprite do retrato vindo das Definições de variáveis
+            // sprite do retrato q vc coloca na definição de variavel
             if (variable_instance_exists(speakers[i], "portrait_sprite")
                 && sprite_exists(speakers[i].portrait_sprite)) {
                 portrait_sprites[i] = speakers[i].portrait_sprite;

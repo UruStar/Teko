@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Teko",
-    "path":"Teko.yyp",
+    "name":"cenario",
+    "path":"folders/Sprites/cenario.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

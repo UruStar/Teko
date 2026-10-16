@@ -4,11 +4,7 @@
   "eventList":[],
   "managed":true,
   "name":"oColPlaca",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"name","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Placa",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Bem vindo ao Teko: conexões que transformam!!, espero que seja uma experiencia divertida. Vamos aos Tutoriais!!|Você ira andar no A para ir para esquerda e no D para ir para direita, na tecla espaço você pula, mais para frente havera tutoriais das outras mecanicas",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"portrait_sprite","path":"objects/par_conv/par_conv.yy",},"resource":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_sign",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"RibeiroLandia",
     "path":"folders/Objects/RibeiroLandia.yy",

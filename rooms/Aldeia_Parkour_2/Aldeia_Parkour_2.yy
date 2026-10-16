@@ -45,8 +45,8 @@
     {"name":"inst_21840C82","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},
     {"name":"inst_59391DF1","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},
     {"name":"inst_506B32D9","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},
-    {"name":"inst_536B2559","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},
     {"name":"inst_D316EA4","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},
+    {"name":"inst_3BF027CD","path":"rooms/Aldeia_Parkour_2/Aldeia_Parkour_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -68,9 +68,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sensor","path":"objects/sensor/sensor.yy",},"propertyId":{"name":"destino_x","path":"objects/sensor/sensor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1190",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sensor","path":"objects/sensor/sensor.yy",},"propertyId":{"name":"destino_y","path":"objects/sensor/sensor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1243.0,"y":256.0,},
-        {"$GMRInstance":"v4","%Name":"inst_536B2559","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_536B2559","objectId":{"name":"oColPlaca","path":"objects/oColPlaca/oColPlaca.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_conv","path":"objects/par_conv/par_conv.yy",},"propertyId":{"name":"dialogue","path":"objects/par_conv/par_conv.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Serra logo a frente!",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1230.0,"y":225.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3BF027CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BF027CD","objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1228.0,"y":225.0,},
       ],"layers":[],"name":"afins","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"solids","depth":200,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_11A92457","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11A92457","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.96875,"scaleY":1.0,"x":449.0,"y":481.0,},

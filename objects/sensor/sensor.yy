@@ -8,8 +8,8 @@
   "name":"sensor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Sensores",
+    "path":"folders/Objects/Sensores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

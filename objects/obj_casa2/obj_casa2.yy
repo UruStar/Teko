@@ -6,8 +6,8 @@
   "name":"obj_casa2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Obj_de_cenario",
+    "path":"folders/Objects/Obj_de_cenario.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -17,7 +17,7 @@
   ],
   "parent":{
     "name":"RibeiroLandia Npc's",
-    "path":"folders/Objects/RibeiroLandia Npc's.yy",
+    "path":"folders/Objects/RibeiroLandia/RibeiroLandia Npc's.yy",
   },
   "parentObjectId":{
     "name":"par_conv",

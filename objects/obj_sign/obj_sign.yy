@@ -6,8 +6,8 @@
   "name":"obj_sign",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Obj_de_cenario",
+    "path":"folders/Objects/Obj_de_cenario.yy",
   },
   "parentObjectId":{
     "name":"popup_E",
